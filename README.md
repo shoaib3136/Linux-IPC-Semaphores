@@ -101,9 +101,8 @@ int main(int argc, char* argv[])
 		                      sleep(10); }
 if(NUM_LOOPS>=10)    {
 	    semctl(sem_set_id, 0, IPC_RMID, sem_val) ;} // Remove the sem_set_id
-	    }}
-	    break;
-    }
+	    }
+    
     return 0;}
 
 ```
@@ -112,7 +111,8 @@ if(NUM_LOOPS>=10)    {
 
 
 ## OUTPUT
-![image](https://github.com/shoaib3136/Linux-IPC-Semaphores/assets/117919362/4063ec09-e38b-4840-8903-366579152dba)
+![image](https://github.com/shoaib3136/Linux-IPC-Semaphores/assets/117919362/5e3b61ed-88f3-4f70-9103-e840966132e5)
+
 
 
 
